@@ -5,6 +5,6 @@ session_start();
 
 session_destroy();
 session_unset();
-header("Location: inloggen.php?uitgelogd");
+header("Location: inlogsysteempo.php?uitgelogd");
 
 ?>

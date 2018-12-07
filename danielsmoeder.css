@@ -1,5 +1,5 @@
 body {
-	background-color: #CCC;
+  background-image: linear-gradient(-90deg, green, yellow);
 }
 	
 .rood {
@@ -21,13 +21,37 @@ body {
 .starttekst {
 	font-family: Comic Sans MS	;
 	font-size: ;
-	color: white ;
+	color: red ;
 	text-align: center;
 }
 
 .kaas {
 	grid-area: header;
 	
+}
+
+.buttonleft {
+	float: left;
+		background-color: white;
+    color: black;
+	font-family: Comic Sans MS;
+    border-radius: 4px;
+    padding: 10px 24px;
+	cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	 -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+
+}
+
+.buttonleft:hover {
+    background-color: #141e30; /* Green */
+    color: white;
+	border: 1px solid white;
 }
 
 .buttonstartpagina {
@@ -83,9 +107,8 @@ body {
 
 
 .registratietekst {
-	font-family: Arial	;
+	font-family: Comic Sans MS;
 	font-size:  ;
-	color: white ;
 	}
 
 .buttonregistreren {

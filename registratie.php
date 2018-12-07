@@ -24,7 +24,7 @@
 
   <div class="container signin">
   <div class="alingelogd">
-    <h4>Heb je al een account? <a href="#">log in</a>.</h4>
+    <h4>Heb je al een account? <a href="inloggen.php">log in</a>.</h4>
 	</div>
   </div>
   </div>
